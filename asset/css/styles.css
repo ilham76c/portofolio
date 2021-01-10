@@ -29,21 +29,20 @@ body {
 
 /* Icon Effect */
 svg {
-    fill: purple;      
+    fill: white;       
 }
 
 .icon-container {
-    background-color: white;
-    border: 1px solid transparent;  
+    background-color: rgba(116, 92, 253, 0.192);
+    border: 1px solid white;  
 }
 
 .icon-container:hover svg {        
-    fill: white;   
+    fill: purple;          
 }
     
-.icon-container:hover {
-    border: 1px solid white;  
-    background-color: rgba(116, 92, 253, 0.192);
+.icon-container:hover {    
+    background-color: white;    
 }
 /* Card Text Effect */
 
