@@ -330,37 +330,39 @@
 
 
       <div id="projects" class="container p-lg-5 p-md-3 p-2">
-        <div class="nav-bg px-4 pt-4 rounded">
-          <h4 class="pb-2 text-white">My Projects</h4>
+        <div class="nav-bg px-4 pt-4 rounded text-white">
+          <h4 class="pb-2">My Projects</h4>
           <div class="row">            
 
-            <div class="col-lg-4 col-md-6 col-xs-12 mb-4 d-flex flex-column">
+            <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex flex-column">
               <div class="card-flip flex-fill">
-                <div class="card card-front">                  
-                  <div class="mx-2 mt-2">
-                    <!-- <img src="./img/img-header.png" class="card-img-top" alt="..."> -->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./img/projects/find-meal-1.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/find-meal-2.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/find-meal-3.png" class="d-block w-100" alt="Gambar">
+                <!-- card front -->
+                <div class="card card-front nav-bg">                  
+                  <div class="card-body border rounded p-2">                    
+                      <div class="carousel slide mb-3" data-ride="carousel">
+                        <div class="carousel-inner img-thumbnail">
+                          <div class="carousel-item active">
+                              <img src="./img/projects/find-meal-1.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/find-meal-2.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/find-meal-3.png" class="d-block w-100" alt="Gambar">
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="card-body card-text">                    
-                      <h6 class="font-weight-bold">Find Meal</h6>                      
-                      Aplikasi informasi makananan dengan data dari web API www.themealdb.com
+                      <div class="px-2">
+                        <h5 class="font-weight-bold">Find Meal</h5>
+                        Aplikasi informasi makanan dengan data dari web API www.themealdb.com
+                      </div>
                   </div>                  
                 </div>
+                <!-- end. card front -->
   
-                <div class="card card-back">                
-                  <div class="card-body">
+                <!-- card back -->
+                <div class="card card-back nav-bg">
+                  <div class="card-body border rounded">
                     <div class="px-2 pb-2 pt-3 mb-2 rounded shadow">
                       <h6 class="card-title mb-0">Coding</h6>
                       <span class="badge badge-pill badge-warning">Javascript</span>
@@ -378,10 +380,11 @@
                       <span class="badge badge-pill badge-primary">Webpack</span>
                     </div>
                   </div>              
-                </div>                                             
-
+                </div>
+                <!-- end. card back -->
               </div>
-                            
+
+              <!-- button -->
               <div class="d-flex justify-content-center mt-1 py-2">
                 <a href="https://find-meal.herokuapp.com/" class="card-link btn btn-outline-light btn-sm" target="_blank">
                   Aplikasi
@@ -391,38 +394,41 @@
                   </svg>
                 </a>
               </div>
+              <!-- end. button -->
             </div>      
 
-            <div class="col-lg-4 col-md-6 col-xs-12 mb-4 d-flex flex-column">
+            <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex flex-column">
               <div class="card-flip flex-fill">
-                <div class="card card-front">                  
-                  <div class="mx-2 mt-2">
-                    <!-- <img src="./img/img-header.png" class="card-img-top" alt="..."> -->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="./img/projects/liga-spanyol-1.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/liga-spanyol-2.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/liga-spanyol-3.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/liga-spanyol-4.png" class="d-block w-100" alt="Gambar">
+                <!-- card front -->
+                <div class="card card-front nav-bg">                  
+                  <div class="card-body border rounded p-2">                    
+                      <div class="carousel slide mb-3" data-ride="carousel">
+                        <div class="carousel-inner img-thumbnail">
+                          <div class="carousel-item active">
+                            <img src="./img/projects/liga-spanyol-1.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/liga-spanyol-2.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/liga-spanyol-3.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/liga-spanyol-4.png" class="d-block w-100" alt="Gambar">
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <h6 class="card-title font-weight-bold">Liga Spanyol (LaLiga)</h6>                                          
-                    Aplikasi informasi jadwal pertandingan dan klasemen liga spanyol/LaLiga.
+                      <div class="px-2">
+                        <h5 class="font-weight-bold">Liga Spanyol (LaLiga)</h5>
+                        Aplikasi informasi jadwal pertandingan dan klasemen liga spanyol/LaLiga.
+                      </div>
                   </div>                  
                 </div>
-  
-                <div class="card card-back">
-                  <div class="card-body">
+                <!-- end. card front -->
+
+                <!-- card back -->
+                <div class="card card-back nav-bg">
+                  <div class="card-body border rounded">
                     <div class="px-2 pb-2 pt-3 mb-2 rounded shadow">
                       <h6 class="card-title mb-0">Coding</h6>
                       <span class="badge badge-pill badge-warning">Javascript</span>
@@ -441,9 +447,11 @@
                       <span class="badge badge-pill badge-primary">Service Worker</span>
                     </div>
                   </div>              
-                </div>  
-                
+                </div>
+                <!-- end. card back -->
               </div>
+              
+              <!-- button -->
               <div class="d-flex justify-content-center mt-1 py-2">
                 <a href="https://submission2-v1.web.app/" class="card-link btn btn-outline-light btn-sm" target="_blank">
                   Aplikasi
@@ -452,36 +460,39 @@
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
                   </svg>
                 </a>
-              </div>              
-            </div> 
+              </div>
+              <!-- end. button -->
+            </div>     
 
-            <div class="col-lg-4 col-md-6 col-xs-12 mb-4 d-flex flex-column">
+            <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex flex-column">
               <div class="card-flip flex-fill">
-                <div class="card card-front">                  
-                  <div class="mx-2 mt-2">
-                    <!-- <img src="./img/img-header.png" class="card-img-top" alt="..."> -->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
+                <!-- card front -->
+                <div class="card card-front nav-bg">                  
+                  <div class="card-body border rounded p-2">                    
+                      <div class="carousel slide mb-3" data-ride="carousel">
+                        <div class="carousel-inner img-thumbnail">
+                          <div class="carousel-item active">
                             <img src="./img/projects/search-engine-1.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/projects/search-engine-2.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/projects/search-engine-3.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="./img/projects/search-engine-2.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="./img/projects/search-engine-3.png" class="d-block w-100" alt="Gambar">
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="card-body card-text">                    
-                      <h6 class="font-weight-bold">Mesin Pencari</h6>                      
-                      Mesin pencari informasi pariwisata yang menampilkan dokumen web berdasarkan kata kunci pencarian  
+                      <div class="px-2">
+                        <h5 class="font-weight-bold">Mesin Pencari</h5>
+                        Mesin pencari informasi pariwisata yang menampilkan dokumen web berdasarkan kata kunci pencarian  
+                      </div>
                   </div>                  
                 </div>
-  
-                <div class="card card-back">                
-                  <div class="card-body">
+                <!-- end. card front -->
+
+                <!-- card back -->
+                <div class="card card-back nav-bg">
+                  <div class="card-body border rounded">
                     <div class="px-2 pb-2 pt-3 mb-2 rounded shadow">
                       <h6 class="card-title mb-0">Framework</h6>
                       <span class="badge badge-pill badge-danger">Codeigniter</span>
@@ -499,8 +510,11 @@
                       <span class="badge badge-pill badge-success">Sastrawi</span>                      
                     </div>    
                   </div>              
-                </div>              
+                </div>
+                <!-- end. card back -->
               </div>
+
+              <!-- button -->        
               <div class="d-flex justify-content-center mt-1 py-2">
                 <a href="https://mesin-pencari.herokuapp.com/" class="card-link btn btn-outline-light btn-sm" target="_blank">
                   Aplikasi
@@ -510,38 +524,41 @@
                   </svg>
                 </a>
               </div>
-            </div>  
-
-            <div class="col-lg-4 col-md-6 col-xs-12 mb-4 d-flex flex-column">
+              <!-- end. button -->
+            </div>
+             
+            <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex flex-column">
               <div class="card-flip flex-fill">
-                <div class="card card-front">                  
-                  <div class="mx-2 mt-2">
-                    <!-- <img src="./img/img-header.png" class="card-img-top" alt="..."> -->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="./img/projects/template-web-ta-1.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/template-web-ta-2.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/template-web-ta-3.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/template-web-ta-4.png" class="d-block w-100" alt="Gambar">
+                <!-- card front -->
+                <div class="card card-front nav-bg">                  
+                  <div class="card-body border rounded p-2">                    
+                      <div class="carousel slide mb-3" data-ride="carousel">
+                        <div class="carousel-inner img-thumbnail">
+                          <div class="carousel-item active">
+                            <img src="./img/projects/template-web-ta-1.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/template-web-ta-2.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/template-web-ta-3.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/template-web-ta-4.png" class="d-block w-100" alt="Gambar">
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <h6 class="card-title font-weight-bold">Template Web TA</h6>                                          
-                    Template web pencarian data tugas akhir dan aplikasi, serta pengelolaan data tugas akhir.
+                      <div class="px-2">
+                        <h5 class="font-weight-bold">Template Web TA</h5>
+                        Template web pencarian data tugas akhir dan aplikasi, serta pengelolaan data tugas akhir.
+                      </div>
                   </div>                  
                 </div>
+                <!-- end. card front -->
   
-                <div class="card card-back">
-                  <div class="card-body">
+                <!-- card back -->
+                <div class="card card-back nav-bg">
+                  <div class="card-body border rounded">
                     <div class="px-2 pb-2 pt-3 mb-2 rounded shadow">
                       <h6 class="card-title mb-0">Coding</h6>
                       <span class="badge badge-pill badge-warning">Javascript</span>
@@ -555,8 +572,11 @@
                       <span class="badge badge-pill badge-secondary">JQuery</span>
                     </div>
                   </div>              
-                </div>              
+                </div>
+                <!-- end. card back -->
               </div>
+
+              <!-- button -->
               <div class="d-flex justify-content-center mt-1 py-2">
                 <a href="https://ilham76c.github.io/template-web-ta/views/user/" class="card-link btn btn-outline-light btn-sm" target="_blank">
                   Aplikasi
@@ -566,33 +586,35 @@
                   </svg>
                 </a>
               </div>
-            </div> 
+              <!-- end. button -->
+            </div>               
 
-            <div class="col-lg-4 col-md-6 col-xs-12 mb-4 d-flex flex-column">
+            <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex flex-column">
               <div class="card-flip flex-fill">
-                <div class="card card-front">                  
-                  <div class="mx-2 mt-2">
-                    <!-- <img src="./img/img-header.png" class="card-img-top" alt="..."> -->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
+                <!-- card front -->
+                <div class="card card-front nav-bg">                  
+                  <div class="card-body border rounded p-2">                    
+                      <div class="carousel slide mb-3" data-ride="carousel">
+                        <div class="carousel-inner img-thumbnail">
+                          <div class="carousel-item active">
                             <img src="./img/projects/template-web-pencarian-1.png" class="d-block w-100" alt="Gambar">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/projects/template-web-pencarian-2.png" class="d-block w-100" alt="Gambar">
+                          </div>
                         </div>
-                        <div class="carousel-item">
-                          <img src="./img/projects/template-web-pencarian-2.png" class="d-block w-100" alt="Gambar">
-                        </div>
-                        
                       </div>
-                    </div>
-                  </div>
-                  <div class="card-body card-text">                    
-                      <h6 class="font-weight-bold">Template Web Pencarian</h6>                      
-                      Template web pencarian atau search engine, dengan text input dan konten hasil pencarian di dalamnya.
+                      <div class="px-2">
+                        <h5 class="font-weight-bold">Template Web Pencarian</h5>
+                        Template web pencarian atau search engine, dengan text input dan konten hasil pencarian di dalamnya.
+                      </div>
                   </div>                  
                 </div>
+                <!-- end. card front -->
   
-                <div class="card card-back">                
-                  <div class="card-body">
+                <!-- card back -->
+                <div class="card card-back nav-bg">
+                  <div class="card-body border rounded">
                     <div class="px-2 pb-2 pt-3 mb-2 rounded shadow">
                       <h6 class="card-title mb-0">Coding</h6>
                       <span class="badge badge-pill badge-warning">Javascript</span>
@@ -600,8 +622,11 @@
                       <span class="badge badge-pill badge-danger">HTML</span>
                     </div>                                        
                   </div>              
-                </div>              
+                </div>
+                <!-- end. card back -->
               </div>
+
+              <!-- button -->
               <div class="d-flex justify-content-center mt-1 py-2">
                 <a href="https://ilham76c.github.io/template-web-pencarian/" class="card-link btn btn-outline-light btn-sm" target="_blank">
                   Aplikasi
@@ -611,6 +636,7 @@
                   </svg>
                 </a>
               </div>
+              <!-- end. button -->
             </div>      
       
           </div>
