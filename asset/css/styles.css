@@ -114,3 +114,7 @@ svg {
     transform: rotateY(0deg);
 }
 /* ./ Card Project */
+
+.capitalize {
+    text-transform: capitalize;
+}
