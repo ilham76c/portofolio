@@ -24,7 +24,7 @@ class SkillsItem extends HTMLElement {
         <div class="card nav-bg">
           <div class="row no-gutters">
             <div class="col-3 col-xs-3">
-              <img class="img-thumbnail" src="/img/skills/${skill.toLowerCase()}64.png" alt="gambar">
+              <img class="img-thumbnail" src="./img/skills/${skill.toLowerCase()}64.png" alt="gambar">
             </div>
             <div class="col-9 col-xs-9 d-flex flex-fill align-items-center">
               <div class="card-body">
