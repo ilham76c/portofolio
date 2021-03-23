@@ -128,6 +128,30 @@ const projects = [
   },
   {
     front: {
+      nama: 'Web Geolocation',
+      deskripsi: 'Menampilkan peta menggunakan API dari HERE Maps. API yang digunakan diantaranya menampilkan marker, draggable mark, hingga menampilkan rute menuju lokasi.',
+      images: [
+        'web-gelocation-1.png',
+        'web-gelocation-2.png',
+        'web-gelocation-3.png',
+      ],
+    },
+    back: [
+      {
+        framework: [
+          'Laravel',
+        ]
+      },
+      {
+        database: [
+          'PostgreSQL'
+        ]
+      },
+    ],
+    url: 'https://here-geolocation.herokuapp.com/'
+  },
+  {
+    front: {
       nama: 'Template Web Pencarian',
       deskripsi: 'Template web pencarian atau search engine, dengan text input dan konten hasil pencarian di dalamnya.',
       images: [
@@ -145,7 +169,7 @@ const projects = [
       },
     ],
     url: 'https://ilham76c.github.io/template-web-pencarian/'
-  }
+  },
 ];
 
 class ProjectsItem extends HTMLElement {
