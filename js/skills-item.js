@@ -13,21 +13,24 @@ const skills = [
   'PostgreSQL',
   'Redis',
   'Redux',
-  'Docker'
+  'Docker',
 ];
 
 class SkillsItem extends HTMLElement {
-
   createSkillElement(skill) {
     return `
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="col-1 col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4">
         <div class="card nav-bg">
-          <div class="row no-gutters">
-            <div class="col-3 col-xs-3">
-              <img class="img-thumbnail" src="./img/skills/${skill.toLowerCase()}64.png" alt="gambar">
+          <div class="row no-gutters align-items-center">
+            <div class="col-auto">
+              <img
+                class="img-thumbnail w-50"
+                src="./img/skills/${skill.toLowerCase()}64.png"
+                alt="${skill}"
+              >
             </div>
-            <div class="col-9 col-xs-9 d-flex flex-fill align-items-center">
-              <div class="card-body">
+            <div class="col">
+              <div class="card-body py-2">
                 <p class="card-text m-0">${skill}</p>
               </div>
             </div>
