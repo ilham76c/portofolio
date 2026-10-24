@@ -118,3 +118,27 @@ svg {
 .capitalize {
     text-transform: capitalize;
 }
+
+.skill-card {
+  gap: 16px;
+  min-height: min-content;
+  /* padding: 10px; */
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+}
+
+.skill-image {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 4px;
+  padding: 4px;
+  background: white;
+}
+
+.skill-name {
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
