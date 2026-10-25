@@ -131,8 +131,8 @@ class SkillsItem extends HTMLElement {
       });
       const skillSection = `
         <details open>
-          <summary class="capitalize mb-2">${key.replace(/-/g, ' ')}</summary>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 g-3 mb-5">
+          <summary class="capitalize mb-2 user-select-none">${key.replace(/-/g, ' ')}</summary>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 g-3 mb-4">
             ${skillContent}
           </div>
         </details>
