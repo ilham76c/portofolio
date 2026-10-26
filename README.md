@@ -3,3 +3,28 @@ Saya adalah seorang web developer. Pengalaman saya dalam membuat website kurang 
 
 ## Realese
 URL untuk akses Portofolio: [Web Portofolio](https://ilham76c.github.io/portofolio/)
+
+## Structure
+portfolio/
+├── index.html
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── vendor/
+│       ├── bootstrap/
+│       └── jquery/
+├── css/
+│   ├── styles.css
+│   ├── components.css
+│   └── responsive.css
+├── js/
+│   ├── main.js
+│   ├── data/
+│   │   ├── projects.js
+│   │   └── skills.js
+│   ├── components/
+│   │   ├── project-card.js
+│   │   └── skill-card.js
+│   └── utils/
+│       └── dom.js
+└── README.md

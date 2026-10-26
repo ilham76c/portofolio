@@ -36,7 +36,7 @@ const projects = [
         ]
       }
     ],
-    url: 'https://find-meal.herokuapp.com/'
+    url: 'https://find-meal-mu.vercel.app/'
   },
   {
     front: {
